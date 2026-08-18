@@ -27,3 +27,10 @@ maxheap.py
 
 Conclusion
 The Heap Sort algorithm successfully sorts the given list of integers in ascending order. The program demonstrates the use of a Max Heap and reports O(n log n) time complexity for the best, average, and worst cases. �
+
+       PRACTICAL-4
+Summary
+The factorial of a number was implemented using both iterative and recursive methods. The iterative method calculates the factorial using a for loop, while the recursive method calculates it by repeatedly calling the same function with a reduced value. Both methods have O(n) time complexity. The iterative method uses O(1) space, whereas the recursive method uses O(n) space because of recursive function calls. The execution time of both methods was also measured and compared. �
+
+Conclusion
+Thus, the factorial of a given number was successfully calculated using both iterative and recursive methods. Both methods produce the same result, but the iterative method is more space-efficient, while the recursive method is simpler and demonstrates the concept of recursion. Therefore, the iterative approach is generally preferable when memory efficiency is important.
