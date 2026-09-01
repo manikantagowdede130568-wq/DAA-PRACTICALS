@@ -34,3 +34,20 @@ The factorial of a number was implemented using both iterative and recursive met
 
 Conclusion
 Thus, the factorial of a given number was successfully calculated using both iterative and recursive methods. Both methods produce the same result, but the iterative method is more space-efficient, while the recursive method is simpler and demonstrates the concept of recursion. Therefore, the iterative approach is generally preferable when memory efficiency is important.
+
+     practical-5
+
+Summary
+​This document details a practical implementation of the 0/1 Knapsack problem solved using Dynamic Programming in Python.  
+​Algorithm & Logic: The code constructs a 2D matrix dynamic programming table (dp) to determine the maximum value achievable without exceeding the total weight capacity. At each iteration, it compares the outcome of including an item versus excluding it.  
+​Execution & Input:
+​Total items (n): 5  
+​Item 1: Weight = 23, Value = 56  
+​Item 2: Weight = 2, Value = 45  
+​Item 3: Weight = 21, Value = 56  
+​Item 4: Weight = 22, Value = 46  
+​Item 5: Weight = 43, Value = 23  
+​Knapsack Capacity: 6  
+​Result: The calculated Maximum Value is 45.  
+​Conclusion
+​The implementation demonstrates that Dynamic Programming solves the 0/1 Knapsack problem with a time complexity of O(n \cdot C) and a space complexity of O(n \cdot C), where n is the number of items and C is the total capacity. Given the low capacity of 6 in the example execution, only Item 2 (weight: 2, value: 45) fits into the knapsack. Thus, the program correctly selects Item 2 to yield the maximum possible value of 45 within the capacity constraint.  
