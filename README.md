@@ -50,4 +50,20 @@ Summary
 ​Knapsack Capacity: 6  
 ​Result: The calculated Maximum Value is 45.  
 ​Conclusion
-​The implementation demonstrates that Dynamic Programming solves the 0/1 Knapsack problem with a time complexity of O(n \cdot C) and a space complexity of O(n \cdot C), where n is the number of items and C is the total capacity. Given the low capacity of 6 in the example execution, only Item 2 (weight: 2, value: 45) fits into the knapsack. Thus, the program correctly selects Item 2 to yield the maximum possible value of 45 within the capacity constraint.  
+​The implementation demonstrates that Dynamic Programming solves the 0/1 Knapsack problem with a time complexity of O(n \cdot C) and a space complexity of O(n \cdot C), where n is the number of items and C is the total capacity. Given the low capacity of 6 in the example execution, only Item 2 (weight: 2, value: 45) fits into the knapsack. Thus, the program correctly selects Item 2 to yield the maximum possible value of 45 within the capacity constraint. 
+
+         practical -6
+Summary
+​This practical document demonstrates the implementation of the Matrix Chain Multiplication problem using Python and Dynamic Programming.  
+​Objective: Find the optimal parenthesization of a sequence of matrices to minimize total scalar multiplications.  
+​Implementation Details:
+​Accepts matrix dimensions interactively from the user, validating that adjacent matrix dimensions match correctly for valid multiplication.  
+​Computes the minimum multiplication cost using an O(n^3) Dynamic Programming algorithm (matrix_chain).  
+​Measures execution time using Python’s time module.  
+​Execution & Output:
+​Tested with 5 matrices of dimensions 3\times3, 3\times3, 3\times2, 2\times4, and 4\times4.  
+​Successfully calculated the minimum number of scalar multiplications to be 96 with an execution time of approximately 9.44 \times 10^{-5} seconds.  
+​Conclusion
+​The Dynamic Programming approach effectively solves the Matrix Chain Multiplication problem by breaking it into overlapping subproblems and storing intermediate results in a table.  
+​Time Complexity: O(n^3) across Best, Average, and Worst cases, which drastically reduces the exponential complexity of a naive exhaustive search.  
+​Space Complexity: O(n^2) to store the DP lookup table for n matrices. 
