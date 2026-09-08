@@ -67,3 +67,16 @@ Summary
 ​The Dynamic Programming approach effectively solves the Matrix Chain Multiplication problem by breaking it into overlapping subproblems and storing intermediate results in a table.  
 ​Time Complexity: O(n^3) across Best, Average, and Worst cases, which drastically reduces the exponential complexity of a naive exhaustive search.  
 ​Space Complexity: O(n^2) to store the DP lookup table for n matrices. 
+
+         practical-7
+Summary
+The Coin Change Problem using Dynamic Programming is a common problem where we determine the minimum number of coins needed to make a given amount, or the number of different ways to make that amount. Dynamic Programming solves the problem efficiently by breaking it into smaller subproblems and storing their results to avoid repeated calculations.
+
+For the minimum-coin version, we define dp[i] as the minimum number of coins required to make amount i. We initialize dp[0] = 0 and calculate the remaining values by considering each available coin. The final value dp[amount] gives the minimum number of coins needed.
+
+Conclusion
+The Coin Change Problem demonstrates how Dynamic Programming can efficiently solve problems with overlapping subproblems and optimal substructure. By storing previously calculated results, it avoids unnecessary repeated computations and significantly improves efficiency compared with a simple recursive approach. Thus, Dynamic Programming provides an effective and systematic solution for finding the minimum number of coins or the number of ways to form a given amount.
+
+
+
+
