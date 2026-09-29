@@ -77,7 +77,7 @@ For the minimum-coin version, we define dp[i] as the minimum number of coins req
 Conclusion
 The Coin Change Problem demonstrates how Dynamic Programming can efficiently solve problems with overlapping subproblems and optimal substructure. By storing previously calculated results, it avoids unnecessary repeated computations and significantly improves efficiency compared with a simple recursive approach. Thus, Dynamic Programming provides an effective and systematic solution for finding the minimum number of coins or the number of ways to form a given amount.
 
-   practical-8
+        practical-8
 
 Summary
 The AI-Based Smart Traffic Management and Congestion Prediction System for Urban IoT Networks is designed to monitor traffic conditions using IoT sensors and analyze the collected data with AI techniques. The system helps detect traffic congestion, predict future traffic conditions, and support efficient traffic management. It connects entities such as traffic sensors, vehicles, roads, traffic signals, and congestion predictions to enable better coordination and real-time decision-making.
