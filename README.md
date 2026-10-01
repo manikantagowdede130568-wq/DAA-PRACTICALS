@@ -81,6 +81,7 @@ The Coin Change Problem demonstrates how Dynamic Programming can efficiently sol
 
 Summary
 The AI-Based Smart Traffic Management and Congestion Prediction System for Urban IoT Networks is designed to monitor traffic conditions using IoT sensors and analyze the collected data with AI techniques. The system helps detect traffic congestion, predict future traffic conditions, and support efficient traffic management. It connects entities such as traffic sensors, vehicles, roads, traffic signals, and congestion predictions to enable better coordination and real-time decision-making.
+
 Conclusion
 The proposed system can help make urban traffic management more intelligent, efficient, and responsive. By combining IoT data collection with AI-based congestion prediction, traffic authorities can identify crowded areas, manage traffic signals effectively, and reduce delays. Overall, the system provides a useful approach for developing smarter and more sustainable urban transportation networks.
 The uploaded PDF itself could not be text-extracted, so I based this on the topic you provided rather than inventing content from the file. 
