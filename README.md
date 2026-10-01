@@ -85,6 +85,16 @@ Conclusion
 The proposed system can help make urban traffic management more intelligent, efficient, and responsive. By combining IoT data collection with AI-based congestion prediction, traffic authorities can identify crowded areas, manage traffic signals effectively, and reduce delays. Overall, the system provides a useful approach for developing smarter and more sustainable urban transportation networks.
 The uploaded PDF itself could not be text-extracted, so I based this on the topic you provided rather than inventing content from the file. 
 
+            practical-9 
+
+Summary
+
+Prim's Algorithm is a greedy algorithm used to find the Minimum Spanning Tree (MST) of a connected, weighted, undirected graph. It starts from a selected vertex and repeatedly chooses the minimum-weight edge that connects a selected vertex to an unselected vertex. In this practical, a graph containing five vertices (A, B, C, D, and E) is represented using an adjacency matrix. The algorithm selects four edges to connect all five vertices without forming any cycle. The selected edges are A–B (2), B–C (3), B–E (5), and A–D (6). The total cost of the Minimum Spanning Tree is 16. 
+
+Conclusion
+
+Thus, Prim's Algorithm was successfully implemented using Python to find the Minimum Spanning Tree of the given graph. The algorithm efficiently connects all vertices with the minimum possible total edge weight without creating any cycles. The final minimum spanning tree contains four edges, and its total cost is 16. This practical helped in understanding the working and implementation of Prim's Algorithm.
+
 
 
 
