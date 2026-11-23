@@ -97,5 +97,32 @@ Conclusion
 Thus, Prim's Algorithm was successfully implemented using Python to find the Minimum Spanning Tree of the given graph. The algorithm efficiently connects all vertices with the minimum possible total edge weight without creating any cycles. The final minimum spanning tree contains four edges, and its total cost is 16. This practical helped in understanding the working and implementation of Prim's Algorithm.
 
 
+       practical-10
+
+Summary:
+Kruskal’s algorithm is used to find the Minimum Spanning Tree (MST) of a weighted graph. It selects the edges with the smallest weights while avoiding cycles, until all vertices are connected.
+Conclusion:
+Thus, Kruskal’s algorithm successfully finds the minimum spanning tree with minimum total cost by selecting the smallest edges without forming cycles.
+
+
+       Practical-11
+
+Summary:
+The Floyd–Warshall algorithm is used to find the shortest paths between all pairs of vertices in a graph. It updates the distance matrix by considering each vertex as an intermediate vertex.
+Conclusion:
+Thus, the Floyd–Warshall algorithm efficiently finds the shortest distances between all pairs of vertices and helps identify negative weight cycles in a graph.
+
+
+         Practical-12
+
+Summary:
+The Travelling Salesman Problem finds the minimum-cost route for visiting every city exactly once and returning to the starting city. This program uses dynamic programming and bitmasking to calculate the optimal route.
+Conclusion:
+Thus, the TSP program finds the optimal travelling route and minimum travel cost by using dynamic programming, reducing repeated calculations and solving the problem systematically.
+
+
+
+
+
 
 
